@@ -7,7 +7,7 @@ echo "Performing the S2I build..."
 rc=$?
 
 if [ $rc -eq 0 ]; then
-    echo "Recording successful build in the lifecycle management system..."
+    echo "Recording successful build on the life cycle management system..."
 else
     echo "Not calling the lifecycle management system: S2I build failed!"
 fi
